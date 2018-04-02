@@ -1,0 +1,17 @@
+{
+    "name": "wanshi/php-grpc-client",
+    "require": {
+	"wanshi/monolog-facade": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/luoluoluo/monolog-facade"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wanshi\\GrpcClient\\": "src/"
+        }
+    }
+}
